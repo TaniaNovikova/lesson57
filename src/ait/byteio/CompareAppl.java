@@ -44,6 +44,9 @@ public class CompareAppl {
             }
             System.out.println("File1 is equal File2");
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }
